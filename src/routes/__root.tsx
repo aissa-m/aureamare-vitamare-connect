@@ -85,6 +85,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "AureaMare Holding" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "AureaMare Holding × VitaMare" },
+      { name: "twitter:title", content: "AureaMare Holding × VitaMare" },
+      { property: "og:description", content: "Importación y exportación de pescado fresco y congelado desde Mauritania al mercado europeo." },
+      { name: "twitter:description", content: "Importación y exportación de pescado fresco y congelado desde Mauritania al mercado europeo." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/a427aa58-9aeb-4cd1-a142-e3270cc8e2da" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/a427aa58-9aeb-4cd1-a142-e3270cc8e2da" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
