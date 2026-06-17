@@ -84,11 +84,11 @@ export function SiteHeader() {
           </div>
 
           <a
-            href="#contact"
-            className="hidden md:inline-flex items-center justify-center rounded-full bg-gradient-gold px-5 py-2.5 text-sm font-semibold text-primary shadow-card hover:shadow-elegant transition-shadow"
-          >
-            {t("nav_cta")}
-          </a>
+  href="#contact"
+  className="hidden md:inline-flex items-center justify-center rounded-full bg-gradient-gold px-5 py-2.5 text-sm font-semibold text-[#E7BB69] shadow-card hover:shadow-elegant transition-shadow"
+>
+  {t("nav_cta")}
+</a>
 
           <button
             onClick={() => setOpen((v) => !v)}
