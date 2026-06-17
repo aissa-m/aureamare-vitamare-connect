@@ -74,7 +74,10 @@ function Hero() {
           <p className="mt-7 text-lg lg:text-xl text-white/85 max-w-2xl leading-relaxed">{t("hero_sub")}</p>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
-            <a href="#buyers" className="group inline-flex items-center justify-center gap-2 rounded-full bg-gradient-gold px-7 py-4 text-sm font-semibold text-primary shadow-elegant hover:scale-[1.02] transition">
+            <a
+              href="#buyers"
+              className="group inline-flex items-center justify-center gap-2 rounded-full bg-gradient-gold px-7 py-4 text-sm font-semibold text-[#E7BB69] shadow-elegant hover:scale-[1.02] transition"
+            >
               {t("hero_cta_buyer")} <ArrowRight className="size-4 group-hover:translate-x-1 transition-transform" />
             </a>
             <a href="#suppliers" className="inline-flex items-center justify-center gap-2 rounded-full bg-white/10 backdrop-blur border border-white/25 px-7 py-4 text-sm font-semibold text-white hover:bg-white/20 transition">
