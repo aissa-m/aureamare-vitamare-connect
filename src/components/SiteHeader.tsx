@@ -38,7 +38,8 @@ export function SiteHeader() {
       <div className="container mx-auto max-w-7xl px-6 flex items-center justify-between h-20">
         <a href="#top" className="flex items-center gap-2 group">
           <div className="w-9 h-9 rounded-full bg-gradient-ocean flex items-center justify-center shadow-card">
-            <span className="text-primary-foreground font-display text-lg font-semibold">A</span>
+            {/* <span className="text-primary-foreground font-display text-lg font-semibold">A</span> */}
+            <img src="/aureamar.jpeg" alt="AureaMare logo" className="h-full w-full object-contain" />
           </div>
           <div className="leading-tight">
             <div className={cn("font-display text-lg font-semibold tracking-tight", scrolled ? "text-foreground" : "text-white")}>
