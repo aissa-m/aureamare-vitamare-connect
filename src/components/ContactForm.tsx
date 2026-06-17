@@ -58,7 +58,7 @@ export function ContactForm() {
           <Send className="size-4" /> {t("contact_send")}
         </button>
         <a
-          href="https://wa.me/34600000000"
+          href="https://wa.me/34692520497"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center gap-2 rounded-full border border-border bg-background px-7 py-3.5 text-sm font-semibold text-foreground hover:border-accent hover:text-accent transition"
