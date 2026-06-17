@@ -48,7 +48,7 @@ export function SiteFooter() {
           <div className="font-display text-base text-white mb-4">{t("footer_contact")}</div>
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2"><Mail className="size-4 text-accent" /> info@aureamare.com</li>
-            <li className="flex items-center gap-2"><Phone className="size-4 text-accent" /> +34 600 000 000</li>
+            <li className="flex items-center gap-2"><Phone className="size-4 text-accent" /> +34 692 52 04 97</li>
             <li className="flex items-center gap-2"><MessageCircle className="size-4 text-accent" /> WhatsApp</li>
           </ul>
         </div>
